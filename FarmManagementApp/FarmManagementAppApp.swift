@@ -11,7 +11,7 @@ import SwiftUI
 struct FarmManagementAppApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            FarmListView()
         }
     }
 }

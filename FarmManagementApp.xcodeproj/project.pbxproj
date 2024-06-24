@@ -14,6 +14,13 @@
 		4EC0B4E32C2947790065AD93 /* FarmManagementAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC0B4E22C2947790065AD93 /* FarmManagementAppTests.swift */; };
 		4EC0B4ED2C2947790065AD93 /* FarmManagementAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC0B4EC2C2947790065AD93 /* FarmManagementAppUITests.swift */; };
 		4EC0B4EF2C2947790065AD93 /* FarmManagementAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC0B4EE2C2947790065AD93 /* FarmManagementAppUITestsLaunchTests.swift */; };
+		4EC0B4FC2C294C590065AD93 /* Farm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC0B4FB2C294C590065AD93 /* Farm.swift */; };
+		4EC0B4FE2C294CEF0065AD93 /* FarmViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC0B4FD2C294CEF0065AD93 /* FarmViewModel.swift */; };
+		4EC0B5002C294D280065AD93 /* FarmListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC0B4FF2C294D280065AD93 /* FarmListView.swift */; };
+		4EC0B5022C294D780065AD93 /* FarmDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC0B5012C294D780065AD93 /* FarmDetailView.swift */; };
+		4EC0B5042C295CF80065AD93 /* CartItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC0B5032C295CF80065AD93 /* CartItem.swift */; };
+		4EC0B5062C295D1F0065AD93 /* CartViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC0B5052C295D1F0065AD93 /* CartViewModel.swift */; };
+		4EC0B5082C295D5E0065AD93 /* CartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC0B5072C295D5E0065AD93 /* CartView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +52,13 @@
 		4EC0B4E82C2947790065AD93 /* FarmManagementAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FarmManagementAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4EC0B4EC2C2947790065AD93 /* FarmManagementAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FarmManagementAppUITests.swift; sourceTree = "<group>"; };
 		4EC0B4EE2C2947790065AD93 /* FarmManagementAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FarmManagementAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4EC0B4FB2C294C590065AD93 /* Farm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Farm.swift; sourceTree = "<group>"; };
+		4EC0B4FD2C294CEF0065AD93 /* FarmViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FarmViewModel.swift; sourceTree = "<group>"; };
+		4EC0B4FF2C294D280065AD93 /* FarmListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FarmListView.swift; sourceTree = "<group>"; };
+		4EC0B5012C294D780065AD93 /* FarmDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FarmDetailView.swift; sourceTree = "<group>"; };
+		4EC0B5032C295CF80065AD93 /* CartItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartItem.swift; sourceTree = "<group>"; };
+		4EC0B5052C295D1F0065AD93 /* CartViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartViewModel.swift; sourceTree = "<group>"; };
+		4EC0B5072C295D5E0065AD93 /* CartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +114,13 @@
 				4EC0B4D42C2947790065AD93 /* Assets.xcassets */,
 				4EC0B4D62C2947790065AD93 /* FarmManagementApp.entitlements */,
 				4EC0B4D72C2947790065AD93 /* Preview Content */,
+				4EC0B4FB2C294C590065AD93 /* Farm.swift */,
+				4EC0B4FD2C294CEF0065AD93 /* FarmViewModel.swift */,
+				4EC0B4FF2C294D280065AD93 /* FarmListView.swift */,
+				4EC0B5012C294D780065AD93 /* FarmDetailView.swift */,
+				4EC0B5032C295CF80065AD93 /* CartItem.swift */,
+				4EC0B5052C295D1F0065AD93 /* CartViewModel.swift */,
+				4EC0B5072C295D5E0065AD93 /* CartView.swift */,
 			);
 			path = FarmManagementApp;
 			sourceTree = "<group>";
@@ -259,8 +280,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4EC0B5082C295D5E0065AD93 /* CartView.swift in Sources */,
+				4EC0B4FE2C294CEF0065AD93 /* FarmViewModel.swift in Sources */,
+				4EC0B5022C294D780065AD93 /* FarmDetailView.swift in Sources */,
+				4EC0B4FC2C294C590065AD93 /* Farm.swift in Sources */,
 				4EC0B4D32C2947760065AD93 /* ContentView.swift in Sources */,
+				4EC0B5062C295D1F0065AD93 /* CartViewModel.swift in Sources */,
 				4EC0B4D12C2947760065AD93 /* FarmManagementAppApp.swift in Sources */,
+				4EC0B5002C294D280065AD93 /* FarmListView.swift in Sources */,
+				4EC0B5042C295CF80065AD93 /* CartItem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
